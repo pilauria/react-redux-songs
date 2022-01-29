@@ -25,6 +25,6 @@ But I just want to show you how we could really completely 'reduxifi', so to spe
 So from this reducer, I'm going to return an array of objects where every object represents a different*/
 
 export default combineReducers({
-  song: songsReducer,
+  songs: songsReducer,
   selectedSong: selectedSongReducer,
 });
